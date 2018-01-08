@@ -1,2 +1,4 @@
 # pjwalker.net
-Paul Walker Professional Web Development Portfolio - Wordpress
+Welcome to my professional portfolio. I am currently seeking engagements and, even if this changes, generally love to talk to people in the Industry.
+
+## Please - no recruiters
