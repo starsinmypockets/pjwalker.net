@@ -31,9 +31,9 @@
         
         <div id="topnav" class="navbar navbar-light">
            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#panel1">Work</a></li>
-                <li class="nav-item"><a class="nav-link" href="#panel2">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#panel4">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.pjwalker.net/wp-content/uploads/2018/01/paul_walker_resume_1_2018.pdf">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://medium.com/@starsinmypockets/" target="_blank">Articles</a></li>
            </ul>
         </div>
 
