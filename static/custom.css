@@ -1,33 +1,40 @@
-thead {min-height:30em}
-
-header {padding-top:2em}
-header .title {margin-left:4em;}
-header .title h1 {margin-bottom:0}
-header .left img {margin-left:25%; border:2px dashed #444141}
-header .left {text-align:center}
-header .right {padding-top:4em}
-header .right span {font-size:1.5em;}
-
 body {font-size: 1.4em;}
+#page {overflow:hidden; background-color:white}
+body #page #main a {color: blue}
+body #page button a {color:black}
+body #page #main h4.lead {color:black}
+body #panel4 #contact h4.lead {color:white}
+body #panel4 #social-menu a {color:white}
 p {
     font-size: 2em;
     line-height: 1.6em;
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 }
 h2 {font-size:3em !important; font-weight:600 !important;}
+thead {min-height:30em}
+header {padding-top:2em}
+header .title {margin-left:4em;}
+header .title h1 {margin-bottom:0}
+header .left img {margin-left:25%; }
+header .left {text-align:center}
+header .right {padding-top:4em}
+header .right span {font-size:1.5em;}
+#topmatter {width:80%; margin:0 4em; margin-top:-20px; font-size:1.5em;}
+#topmatter h4 {margin-top:1em; margin-bottom:2em}
+#masthead div.header-stuff img {z-index:114 !important;position: absolute; left:0; opacity:1; margin-top:35px; border:2px solid white }
 
 .panel-content .wrap .slick-arrow.slick-prev {margin-left:-50px !important;}
 .panel-content .wrap .slick-arrow.slick-next {margin-right:-50px !important;}
 .panel-content .wrap .slider-content h2.slide-title {margin:1em !important;}
 .slick-slider-short-content {background-color:white !important}
 .slider-content a {margin-bottom: 5em !important;adding:0 !important}
-#page {overflow:hidden;}
 #main {background:white; color:black}
 #main h2, #main h3, #main h4 {color:#737c89}
 .entry-header {padding-top:0}
-#topnav {position: fixed; top:0; right:2em;z-index:10000}
-#topnav ul {list-style:none;adding-right:2em; margin-top:1em}
-#topnav ul li {font-size:1.6em; margin:.6em}
+#topnav {position: fixed; top:0;z-index:10000; width:100%; background: rgba(38, 38, 38, .5)}
+#topnav ul {list-style:none;padding:0 em; margin:0;right:0;position:absolute}
+#topnav ul li {font-size:1.6em; margin:0 1em}
+.navbar {min-height:3em !important;}
 
 /* Technical Repertoire */
 .skills-container .icon-bg {background: rgba(192, 184, 184, .6); border-radius:50%; height:100px; width:100px; margin-bottom:4em}
@@ -46,28 +53,33 @@ h2 {font-size:3em !important; font-weight:600 !important;}
 #social-menu ul li {width:100%}
 
 @media (max-width: 767px) {
-        #masthead div.left img {display:none;}   
-            #masthead div.right {width:100%;}
-                #masthead {margin:bottom:0}
-                    .skills-container-inner {margin:2em}
-                        #topnav {display:none}
-                         }
+    header {height: 140px}
+    #masthead div.left img {top:2em; left:50%; margin-left:-60px;width:120px;}   
+    #masthead {margin-bottom:1em; text-align:center}
+    .header-stuff .right {padding-top:2em}
+    .header-stuff .right #topmatter {width:100% !important; text-align:center; margin:0}
+    #topmatter span{display:none}
+    #topmatter:after {content: "Paul Walker -- Web Development"; font-weight:600;}
+    #topnav {width:72%; right:0}
+    #topnav ul {float:right}
+    #topnav ul li {float:left; margin:0 .4em}
+    #post-324 .entry-header {display:none}
+    .skills-container-inner {margin:2em}
+}
 
-                         /* HEADER */
-                         #masthead .title {display:none;}
-#topmatter {width:80%; margin:0 4em; margin-top:-20px; font-size:1.5em;}
-#masthead div.header-stuff img {z-index:114 !important;position: absolute; left:0; opacity:1; margin-top:15px; border:2px solid white }
-#masthead::after {content:“”;osition:absolute; top:0; width:100%; height:100%;background: url(http://www.pjwalker.net/wp-content/uploads/2018/01/philadelphia_1898.jpg); opacity: .1; z-index:10;}
+                                                                                                              /* HEADER */
+                                                                                                              #masthead .title {display:none;}
 
-/* SLIDER */
-#post-324 h2 {text-align:center}
-#post-324 div.slider-content {padding:0 !important}
-#post-324 .wpsisac-slick-slider.design-5 .slick-arrow {top: 35% !important}
+                                                                                                              /* SLIDER */
+                                                                                                              #post-324 h2 {text-align:center}
+                                                                                                              #post-324 div.slider-content {padding:0 !important}
+                                                                                                              #post-324 .wpsisac-slick-slider.design-5 .slick-arrow {top: 35% !important}
 
-/* CONTACT */
-#panel4 {background-color: #262626; z-index:10; color:white}
-#panel4::after{position:absolute; top:0; content:""; width:100%; height:100%;background: url(http://www.pjwalker.net/wp-content/uploads/2018/01/philadelphia_1898.jpg); opacity: .05; z-index:-1}
+                                                                                                              /* CONTACT */
+                                                                                                              #panel4 {background-color: #262626; z-index:10; color:white}
+                                                                                                              #panel4::after{position:absolute; top:0; content:""; width:100%; height:100%;background: url(http://www.pjwalker.net/wp-content/uploads/2018/01/philadelphia_1898.jpg); opacity: .05; z-index:-1}
 
-footer#colophon.site-footer {margin-top:0}
+                                                                                                              footer#colophon.site-footer {margin-top:0}
+
 
 
